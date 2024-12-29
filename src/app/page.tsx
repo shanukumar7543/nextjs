@@ -1,5 +1,7 @@
 import Banner from "@/Component/Home/Banner/Banner";
 import Section3 from "@/Component/Home/Section3/Section3";
+import Section4 from "@/Component/Home/Section4/Section4";
+import Section5 from "@/Component/Home/Section5/Section5";
 import dynamic from "next/dynamic";
 {
   /* The following line can be included in your src/index.js or App.js file */
@@ -21,6 +23,12 @@ const Home: React.FC = () => {
       {/* Section 3 */}
 
       <Section3 />
+
+      {/* Section 4 */}
+      <Section4 />
+
+      {/* Section 5 */}
+      <Section5 />
 
     </div>
   );

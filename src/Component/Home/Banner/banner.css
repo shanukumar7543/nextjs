@@ -45,7 +45,7 @@
     height: 100%;
     width: 100%;
     float: right;
-    padding-right: 220px;
+    /* padding-right: 220px; */
     cursor: pointer;
     display: flex;
     justify-content: center;
@@ -70,8 +70,7 @@
     .btn-main {
         height: 100%;
         width: 100%;
-        float: right;
-        padding-right: 91px;
+
 
     }
 }
@@ -88,8 +87,7 @@
     .btn-main {
         height: 100%;
         width: 100%;
-        float: right;
-        /* padding-right: 80px; */
+
     }
 
     .main .container .contant {
